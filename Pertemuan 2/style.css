@@ -38,19 +38,21 @@ body {
 }
 
 #isi {
-    width: 60%;
     padding: 10px;
-    margin: 0 0 0 210px;
+    margin: 0 210px;
 }
 
 #sidebar {
-    width: auto;
-    position: relative;
+    height: 340px;
+    width: 190px;
+    position: absolute;
     padding: 10px;
     background-color: #32a4e7;
     color: white;
     margin: 4px;
     border-radius: 4px;
+    top: 106px;
+    right: 20px;
 }
 
 #lower {
