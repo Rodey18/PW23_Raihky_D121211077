@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+#header h1,
+#header p,
+#pilihan {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#menu {
+    width: 200px;
+    float: left;
+}
+
+.pilihan {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#isi {
+    width: 60%;
+    padding: 10px;
+    margin: 0 0 0 210px;
+}
+
+#sidebar {
+    width: auto;
+    position: relative;
+    padding: 10px;
+    background-color: #32a4e7;
+    color: white;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+#lower {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+    border-radius: 4px;
+    margin: 4px;
+}
